@@ -1,14 +1,14 @@
 # DatabseCloudSecurity_ass
-#Install Django and necessary packages.
+1) Install Django and necessary packages.
 pip install pipenv
 pipenv install django
 pipenv install mssql-django
 pipenv install pyodbc
 
-#Enter virtual environment
+2)Enter virtual environment
 pipenv shell
 
-#Add a new database named TestDB
+3)Add a new database named TestDB
 create a new database at SSMS named TestDB
 
 #Make migrations, migrate and runserver 
