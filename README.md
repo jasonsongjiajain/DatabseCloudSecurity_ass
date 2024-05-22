@@ -18,4 +18,5 @@ python manage.py runserver,
 5) Enter Web, when runserver it will pop out a localhost and remember to add /login/ or /register behind the link to enter the page: 
 Exp: http://127.0.0.1:8000/login/
 
+6) Youtube Presentation Link: https://youtu.be/pjjswflIKKM
 
