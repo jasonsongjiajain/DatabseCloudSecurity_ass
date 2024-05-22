@@ -1,4 +1,4 @@
-# Group 6 DatabseCloudSecurity_ass
+# Group6 TT2L DatabseCloudSecurity_ass
 1) Install Django and necessary package: pip install pipenv,
 pipenv install django,
 pipenv install mssql-django,
