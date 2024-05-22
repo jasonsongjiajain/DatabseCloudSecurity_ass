@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Details</title>
+    <link rel="stylesheet" href="{% static 'globals.css' %}" />
+    <link rel="stylesheet" href="{% static 'styleguide.css' %}" />
+    <link rel="stylesheet" href="{% static 'paymentmethod.css' %}"> <!-- Link your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Card Details</h1> 
+    </header>
+    <div class="form-container">
+        <form class="form" method="post">
+        {% csrf_token %}
+
+        <label for="credit/debit">Credit/Debit:</label>
+        {{ form.cardtype }}
+
+        <label for="card-number">Card Number:</label>
+        {{ form.cardnumber }}
+
+        <label for="expiry-month">Expiry Month:</label>
+        {{ form.expirymonth }}
+        
+        <label for="expiry-year">Expiry Year:</label> 
+        {{ form.expiryyear }}  
+
+        <label for="cvv">CVV/CVV2:</label>
+        {{ form.CVV }}
+
+        <label for="cardholder-name">Cardholder Name:</label>
+        {{ form.cardholdername }}
+
+        <button type="submit" class="button">Next</button>
+        
+        </form>
+    </div>
+</body>
+</html>

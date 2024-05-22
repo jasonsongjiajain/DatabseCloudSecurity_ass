@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'globals.css' %}" />
+    <link rel="stylesheet" href="{% static 'styleguide.css' %}" />
+    <link rel="stylesheet" href="{% static 'account_info.css' %}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<style>
+  
+</style>
+<body>
+<div class="account_info">
+    <a href="{% url 'homepage' %}" class="back-button">
+        <img class="back-arrow" src="{% static 'back-arrow.jpg' %}" alt="Back" />
+    </a>
+    <img class="rectangle" src="{% static 'rectangle2.jpg' %}" />
+    <img class="rectangle2" src="{% static 'rectangle2.jpg' %}"/>
+    <div class="frame">
+        <div class="text-wrapper">Username</div>
+        <div class="div">Email</div>
+        <div class="div">Phone no</div>
+        <div class="div">Card no</div>
+        <div class="div">Current Plan</div>
+    </div>
+    <div class="frame2">
+        <label class="text">{{ request.user.username }}</label>
+        <label class="text">{{ masked_email }}</label>
+        <label class="text">{{ user_detail.phoneno }}</label>
+        <label class="text">{{ paymentmethod_detail.cardnumber|default:"No card number available" }}</label>
+        
+        <label class="text">{{ Plan.plan|default:"No plan available" }}</label>
+    </div>
+
+    <div class="button-container">
+      <button id="remove-payment-method">Remove Payment Method</button>
+      <button id="remove-plan">Remove Plan</button>
+  </div>
+</div>
+
+<script>
+    $('#remove-plan').click(function() {
+        $.ajax({
+            url: "{% url 'remove_plan' %}",
+            type: "POST",
+            headers: {'X-CSRFToken': '{{ csrf_token }}'},
+            success: function(response) {
+                location.reload();
+            },
+            error: function(response) {
+                alert('Failed to remove plan.');
+            }
+        });
+    });
+
+    $('#remove-payment-method').click(function() {
+        $.ajax({
+            url: "{% url 'remove_payment_method' %}",
+            type: "POST",
+            headers: {'X-CSRFToken': '{{ csrf_token }}'},
+            success: function(response) {
+                location.reload();
+            },
+            error: function(response) {
+                alert('Failed to remove payment method.');
+            }
+        });
+    });
+</script>
+</body>
+</html>

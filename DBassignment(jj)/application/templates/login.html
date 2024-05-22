@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'globals.css' %}" />
+    <link rel="stylesheet" href="{% static 'styleguide.css' %}" />
+    <link rel="stylesheet" href="{% static 'login.css' %}" />
+  </head>
+  <body>
+    <div class="log-in">
+      <div class="div">
+        <img class="logo" src="{% static 'jokerlogo.jpg' %}" />
+        <div class="text-wrapper">LET'S INSPIRE</div>
+        <div class="left">
+          <div class="intro">
+            <div class="text-wrapper-2">Log in</div>
+            <form class="form" method="post">
+              {% csrf_token %}
+              <p class="today-is-a-new-day">
+                Today is a new day. It's your day. You shape it. <br />Sign in to continue.
+              </p>
+              <div class="form">
+                <div class="input">
+                  <div class="label">Username</div>
+                  <div class="overlap-group-wrapper">
+                    {{ form.username }}
+                  </div>
+                </div>
+                <div class="input">
+                  <div class="label-2">Password</div>
+                  {{ form.password }}
+                </div>
+              </div>
+              <button type="submit" class="button">Login</button>
+            </form>
+            <!-- Error messages -->
+            {% if form.errors %}
+              <div class="error-message">
+                {% for field, errors in form.errors.items %}
+                  {% for error in errors %}
+                  <p
+          style="color: rgba(255, 0, 0,1);font-family: 'SF Pro Display-Regular', Helvetica; margin-top: 3px;">
+          {{ error }}</p>
+                  {% endfor %}
+                {% endfor %}
+              </div>
+            {% endif %}
+            <!-- End error messages -->
+          </div>
+          <div class="noaccount">
+            <span class="span">Don't have an account?</span>
+            <span class="text-wrapper-5">&nbsp;</span>
+            <a href="{% url 'signup' %}" class="text-wrapper-6">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

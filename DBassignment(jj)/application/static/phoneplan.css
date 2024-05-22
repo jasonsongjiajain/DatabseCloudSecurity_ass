@@ -1,0 +1,414 @@
+.phoneplan .back-arrow {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 0px;
+    left: 0px;
+}
+
+.phoneplan .text-wrapper {
+    position: absolute;
+    height: 40px;
+    top: 0px;
+    left: 800px;
+    font-family: "Aclonica-Regular",Helvetica;
+    font-weight: 400;
+    color: #08b44a;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+}
+
+.phoneplan .rectangle {
+    position: fixed;
+    width: 297px;
+    height: 570px;
+    top: 200px;
+    left: 350px;
+}
+
+.phoneplan .postpaid1 {
+    position: fixed;
+    height: 40px;
+    top: 270px;
+    left: 380px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #08b44a;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan .word1 {
+    position: fixed;
+    height: 40px;
+    top: 330px;
+    left: 370px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan .word2 {
+    position: fixed;
+    height: 40px;
+    top: 400px;
+    left: 360px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan .word3 {
+    position: fixed;
+    height: 40px;
+    top: 430px;
+    left: 380px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan .word4 {
+    position: fixed;
+    height: 40px;
+    top: 460px;
+    left: 400px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan .word5 {
+    position: fixed;
+    height: 40px;
+    top: 550px;
+    left: 425px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan .oval {
+    position: fixed;
+    width: 154px;
+    height: 84px;
+    top: 600px;
+    left: 417px;
+}
+
+.phoneplan .word6 {
+    position: fixed;
+    height: 40px;
+    top: 623px;
+    left: 438px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan2 .rectangle2 {
+    position: fixed;
+    width: 297px;
+    height: 570px;
+    top: 200px;
+    left: 750px;
+}
+
+.phoneplan2 .postpaid2 {
+    position: fixed;
+    height: 40px;
+    top: 270px;
+    left: 780px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #08b44a;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan2 .word7 {
+    position: fixed;
+    height: 40px;
+    top: 323px;
+    left: 773px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan2 .word8 {
+    position: fixed;
+    height: 40px;
+    top: 401px;
+    left: 753px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan2 .word9 {
+    position: fixed;
+    height: 40px;
+    top: 431px;
+    left: 783px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan2 .word10 {
+    position: fixed;
+    height: 40px;
+    top: 461px;
+    left: 800px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan2 .word11 {
+    position: fixed;
+    height: 40px;
+    top: 491px;
+    left: 795px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan2 .word12 {
+    position: fixed;
+    height: 40px;
+    top: 551px;
+    left: 825px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan2 .oval2 {
+    position: fixed;
+    width: 154px;
+    height: 84px;
+    top: 600px;
+    left: 815px;
+}
+
+.phoneplan2 .word13 {
+    position: fixed;
+    height: 40px;
+    top: 622px;
+    left: 838px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan3 .rectangle3 {
+    position: fixed;
+    width: 297px;
+    height: 570px;
+    top: 200px;
+    left: 1150px;
+}
+
+.phoneplan3 .postpaid3 {
+    position: fixed;
+    height: 40px;
+    top: 270px;
+    left: 1170px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #08b44a;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan3 .word14 {
+    position: fixed;
+    height: 40px;
+    top: 322px;
+    left: 1168px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan3 .word15 {
+    position: fixed;
+    height: 40px;
+    top: 402px;
+    left: 1150px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan3 .word16 {
+    position: fixed;
+    height: 40px;
+    top: 432px;
+    left: 1180px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan3 .word17 {
+    position: fixed;
+    height: 40px;
+    top: 462px;
+    left: 1200px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan3 .word18 {
+    position: fixed;
+    height: 40px;
+    top: 492px;
+    left: 1195px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan3 .word19 {
+    position: fixed;
+    height: 40px;
+    top: 555px;
+    left: 1220px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.phoneplan3 .oval3 {
+    position: fixed;
+    width: 154px;
+    height: 84px;
+    top: 600px;
+    left: 1220px;
+}
+
+.phoneplan3 .word20 {
+    position: fixed;
+    height: 40px;
+    top: 620px;
+    left: 1240px;
+    font-family: "Imbue Regular",Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    text-align: center;
+}

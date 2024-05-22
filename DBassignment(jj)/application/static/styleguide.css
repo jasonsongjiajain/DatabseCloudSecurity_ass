@@ -1,0 +1,30 @@
+:root {
+    --primary-color: rgba(152, 99, 255, 1);
+    --input-font-family: "SF Pro Display", Helvetica;
+    --input-font-weight: 400;
+    --input-font-size: 16px;
+    --input-letter-spacing: 0.16px;
+    --input-line-height: 100%;
+    --input-font-style: normal;
+    --text-field-font-family: "SF Pro Display", Helvetica;
+    --text-field-font-weight: 400;
+    --text-field-font-size: 16px;
+    --text-field-letter-spacing: 0.16px;
+    --text-field-line-height: 100%;
+    --text-field-font-style: normal;
+    --paragraph-font-family: "SF Pro Display", Helvetica;
+    --paragraph-font-weight: 400;
+    --paragraph-font-size: 16px;
+    --paragraph-letter-spacing: 0.16px;
+    --paragraph-line-height: 100%;
+    --paragraph-font-style: normal;
+    --link-font-family: "SF Pro Display", Helvetica;
+    --link-font-weight: 700;
+    --link-font-size: 16px;
+    --link-letter-spacing: 0.16px;
+    --link-line-height: 100%;
+    --link-font-style: normal;
+    --collection-1-white: rgba(255, 255, 255, 1);
+    --collection-1-light-grey: rgba(240, 240, 240, 1);
+  }
+  

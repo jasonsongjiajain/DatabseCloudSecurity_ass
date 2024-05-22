@@ -1,0 +1,105 @@
+.account_info .back-arrow{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 0px;
+    left: 0px;
+}
+
+.account_info .rectangle {
+    position: fixed;
+    width: 297px;
+    height: 570px;
+    top: 200px;
+    left: 250px;
+}
+
+.account_info .rectangle2{
+    position: fixed;
+    width: 297px;
+    height: 570px;
+    top: 200px;
+    left: 750px;
+}
+
+.account_info .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    top: 220px;
+    left: 350px;
+}
+
+.frame2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    top: 220px;
+    left: 700px;
+}
+
+.frame .text-wrapper {
+    position: relative;
+    width: 64px;
+    margin-top: -1px;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+.frame .div{
+    position: relative;
+    width: fit-content;
+    color: #000000;
+    font-size: 20px;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+}
+
+.frame2 .text{
+    position: relative;
+    width: fit-content;
+    color: #000000;
+    font-size: 20px;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+}
+
+.account_info {
+    position: relative;
+}
+
+.account_info .button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    position: absolute;
+    top: 50%; /* Adjust this value to control vertical positioning */
+    right: 50px; /* Adjust this value to control horizontal positioning */
+    transform: translateY(-50%);
+}
+
+.account_info button{
+    width: 200px;
+    padding: 10px;
+    background-color: #007BFF; /* Change this to your preferred color */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.account_info button:hover {
+    background-color: #0056b3; /* Change this to your preferred hover color */
+}

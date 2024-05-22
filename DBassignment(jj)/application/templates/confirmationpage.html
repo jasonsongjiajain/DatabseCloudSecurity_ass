@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'globals.css' %}" />
+    <link rel="stylesheet" href="{% static 'styleguide.css' %}" />
+    <link rel="stylesheet" href="{% static 'comfirmationpage.css' %}" />
+  </head>
+  <body>
+    <div class="confirmationpage">
+      <a href="{% url 'login' %}" class="back-button">
+        <img class="back-arrow" src="{% static 'back-arrow.jpg' %}" alt="Back" />
+      </a>
+      <div class="payment">Payment</div>
+      <img class="rectangle1" src="{% static 'redoval.jpg' %}" />
+      <div class="confirmpayment">Confirm Payment</div>
+      <a href="{% url 'homepage' %}">
+        <img class="rectangle2" src="{% static 'oval.png' %}" alt="Homepage" />
+        <div class="word1">YES</div>
+      </a>
+      <a href="{% url 'phoneplan' %}">
+        <img class="rectangle3" src="{% static 'oval.png' %}" alt="Confirmation Page" />
+        <div class="word2">NO</div>
+      </a>
+      </body>
+</html>

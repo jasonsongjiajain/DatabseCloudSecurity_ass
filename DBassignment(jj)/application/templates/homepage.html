@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'globals.css' %}" />
+    <link rel="stylesheet" href="{% static 'styleguide.css' %}" />
+    <link rel="stylesheet" href="{% static 'homepage.css' %}" />
+    </head>
+ <body>
+  <div class="homepage">
+    <div class="div">
+      <div class="text-wrapper">Welcome Back !</div>
+      <a href="{% url 'account_info' %}" class="account-info-btn">
+        <div class="text-wrapper-2">Me</div>
+        <img class="frame" src="{% static 'Account-info.jpg' %}" />
+      </a>
+      <a href="{% url 'login' %}" class="back-button">
+        <img class="back-arrow" src="{% static 'back-arrow.jpg' %}" alt="Back" />
+      </a>
+      <a href="{% url 'phoneplan' %}" class="phone-plan-btn">
+        <div class="text-wrapper-3">Phone Plan</div>
+        <img class="frame1" src="{% static 'Phone1.jpg' %}" />
+      </a>
+      </div>
+    </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'globals.css' %}" />
+    <link rel="stylesheet" href="{% static 'styleguide.css' %}" />
+    <link rel="stylesheet" href="{% static 'signup.css' %}" />
+  </head>
+  <body>
+    <div class="sign-up">
+      <div class="div">
+        <img class="logo" src="{% static 'jokerlogo.jpg' %}"/>
+          <div class="login">
+            <div class="text-wrapper">Register</div>
+            <form class="form" method="post">
+              {% csrf_token %}
+            <div class="form">
+              <div class="input">
+                <div class="label">Full Name</div>
+                <div class="overlap-group-wrapper">
+                 {{ form.full_name }}
+                </div>
+              </div>
+              <div class="input">
+                <div class="label-1">Email</div>
+                <div class="overlap-group-wrapper">
+                 {{ form.email }}
+              </div>
+              <div class="input">
+                <div class="label-2">Phone</div>
+                <div class="overlap-group-wrapper">
+                  {{ form.phone }}
+                </div>
+              </div>
+              <div class="input">
+                <div class="label-3">Username</div>
+                <div class="overlap-group-wrapper">
+                  {{ form.username }}
+                </div>
+              </div>
+              <div class="input">
+                <div class="label-4">Password</div>
+                <div class="overlap-group-wrapper">
+                  {{ form.password }}
+                </div>
+                <button type="submit" class="button">Sign in</button>
+                  <div class="text-wrapper-2">Sign in</div>
+                </a>
+                </form>
+            <p class="already-have-an">
+              <span class="span">Already have an account?</span>
+              <span class="text-wrapper-3">&nbsp;</span>
+              <a href="{% url 'login' %}" class="text-wrapper-4">Login</a>
+            </p>
+          </div>
+          <div class="div-wrapper"><div class="text-wrapper-5">LET'S INSPIRE</div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

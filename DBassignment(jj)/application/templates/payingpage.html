@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Details</title>
+    <link rel="stylesheet" href="{% static 'globals.css' %}" />
+    <link rel="stylesheet" href="{% static 'styleguide.css' %}" />
+    <link rel="stylesheet" href="{% static 'paymentmethod.css' %}"> <!-- Link your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Paying Page</h1> 
+    </header>
+    <div class="form-container">
+        <form class="form" method="post">
+        {% csrf_token %}
+
+        <label for="credit/debit">Plan:</label>
+        {{ form.plan }}
+
+        <label for="card-number">Amount:</label>
+        {{ form.amount }}
+
+
+
+        <button type="submit" class="button">Next</button>
+        
+        </form>
+    </div>
+</body>
+</html>

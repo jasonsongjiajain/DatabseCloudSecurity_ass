@@ -1,0 +1,87 @@
+.confirmationpage .back-arrow {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 0px;
+    left: 0px;
+}
+
+.confirmationpage .payment {
+    position: fixed;
+    height: 64px;
+    top: 0px;
+    left: 870px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #08b44a;
+    letter-spacing: 0.64px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.confirmationpage .rectangle1 {
+    position: fixed;
+    width: 536px;
+    height: 356px;
+    top: 234px;
+    left: 710px;
+}
+
+.confirmationpage .confirmpayment {
+    position: fixed;
+    height: 64px;
+    top: 270px;
+    left: 745px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #000000;
+    letter-spacing: 0.64px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.confirmationpage .rectangle2 {
+    position: fixed;
+    width: 179px;
+    height: 146px;
+    top: 374px;
+    left: 790px;
+}
+
+.confirmationpage .rectangle3 {
+    position: fixed;
+    width: 179px;
+    height: 146px;
+    top: 374px;
+    left: 990px;
+}
+
+.confirmationpage .word1 {
+    position: fixed;
+    height: 64px;
+    top: 415px;
+    left: 815px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #ffffff;
+    letter-spacing: 0.64px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.confirmationpage .word2 {
+    position: fixed;
+    height: 64px;
+    top: 415px;
+    left: 1035px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #ff1001;
+    letter-spacing: 0.64px;
+    text-align: center;
+    white-space: nowrap;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'globals.css' %}" />
+    <link rel="stylesheet" href="{% static 'styleguide.css' %}" />
+    <link rel="stylesheet" href="{% static 'phoneplan.css' %}" />
+    </head>
+    <body> 
+    <div class="phoneplan">
+      <a href="{% url 'login' %}" class="back-button">
+        <img class="back-arrow" src="{% static 'back-arrow.jpg' %}" alt="Back" />
+      </a>
+      <div class="text-wrapper">Phone Plan</div>
+      <img class="rectangle" src="{% static 'rectangle2.jpg' %}" />
+      <div class="postpaid1">jOker Postpaid 69</div>
+      <div class="word1">80GB + BONUS 30 GB</div>
+      <div class="word2">80GB(4G/5G) + 30GB(5G)</div>
+      <div class="word3">Unlimited calls & SMS</div>
+      <div class="word4">Best for individuals</div>
+      <div class="word5">RM69/month</div>
+      <a href="{% url 'payingpage' %}" class="buy-now">
+        <img class="oval" src="{% static 'oval.png' %}" />
+        <div class="word6">BUY NOW</div>
+      </a>
+    </div>
+    <div class="phoneplan2">
+      <img class="rectangle2" src="{% static 'rectangle2.jpg' %}" />
+      <div class="postpaid2">jOker Postpaid 99</div>
+      <div class="word7">100GB + BONUS 50 GB</div>
+      <div class="word8">100GB(4G/5G) + 50GB(5G)</div>
+      <div class="word9">Unlimited calls & SMS</div>
+      <div class="word10">Up to 1 Share Line</div>
+      <div class="word11">(each at RM48/mth)</div>
+      <div class="word12">RM99/month</div>
+      <a href="{% url 'payingpage' %}" class="buy-now1">
+        <img class="oval2" src="{% static 'oval.png' %}" />
+        <div class="word13">BUY NOW</div>
+      </a>
+    <div class="phoneplan3">
+      <img class="rectangle3" src="{% static 'rectangle2.jpg' %}" />
+      <div class="postpaid3">jOker Postpaid 129</div>
+      <div class="word14">120GB + BONUS 60 GB</div>
+      <div class="word15">120GB(4G/5G) + 60GB(5G)</div>
+      <div class="word16">Unlimited calls & SMS</div>
+      <div class="word17">Up to 2 Share Line</div>
+      <div class="word18">(each at RM48/mth)</div>
+      <div class="word19">RM129/month</div>
+      <a href="{% url 'payingpage' %}" class="buy-now2">
+        <img class="oval3" src="{% static 'oval.png' %}" />
+        <div class="word20">BUY NOW</div>
+      </a>
+    </div>
+    </div>
+    </body>
+</html>

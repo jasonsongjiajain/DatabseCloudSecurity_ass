@@ -1,0 +1,131 @@
+.homepage {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.homepage .div{
+    width: 1463px;
+    height: 909px;
+    position: relative;
+}
+
+.homepage .text-wrapper {
+    position: absolute;
+    height: 40px;
+    top: 203px;
+    left: 102px;
+    font-family: "Aclonica-Regular",Helvetica;
+    font-weight: 400;
+    color: #08b44a;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+}
+
+.homepage .account-info {
+    position: absolute;
+    height: 270px;
+    width: 302px;
+    top: 381px;
+    left: 308px;
+}
+
+.homepage .text-wrapper-2 {
+    position: absolute;
+    height: 46px;
+    top: 80px;
+    left: 7px;
+    width: 191px;
+    font-family: "Aclonica-Regular",Helvetica;
+    font-weight: 400;
+    color: #08b44a;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+}
+
+.homepage .text-wrapper-3 {
+    position: absolute;
+    height: 46px;
+    top: 80px;
+    left: -50px;
+    width: 191px;
+    font-family: "Aclonica-Regular",Helvetica;
+    font-weight: 400;
+    color: #08b44a;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+}
+
+.homepage .frame{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 8px;
+    left: 8px;
+}
+
+.homepage .back-arrow {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+}
+
+
+.homepage .image {
+    position: absolute;
+    height: 161px;
+    width: 163px;
+    top: 6px;
+    left: 69px;
+    object-fit: cover;
+}
+
+.homepage .phoneplan {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 205px;
+    left: 450px;
+}
+
+.homepage .account-info-btn {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 405px;
+    left: 450px;
+}
+
+.homepage .back-button {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 0px;
+    left: 0px;
+}
+
+.homepage .phone-plan-btn {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 405px;
+    left: 800px;
+}
+
+.homepage .frame1{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 8px;
+    left: 12px;
+}
